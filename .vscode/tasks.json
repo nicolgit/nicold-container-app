@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/albumapi_csharp.csproj",
+                "${workspaceFolder}/src/nicolapi_csharp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/src/albumapi_csharp.csproj",
+                "${workspaceFolder}/src/nicolapi_csharp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/src/albumapi_csharp.csproj"
+                "${workspaceFolder}/src/nicolapi_csharp.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

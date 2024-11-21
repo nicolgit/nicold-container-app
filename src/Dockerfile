@@ -15,4 +15,4 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 EXPOSE 8080
 ENV ASPNETCORE_URLS=http://+:8080
-ENTRYPOINT ["dotnet", "albumapi_csharp.dll"]
+ENTRYPOINT ["dotnet", "nicolapi_csharp.dll"]

@@ -27,7 +27,7 @@ app.UseCors();
 
 app.MapGet("/", async context =>
 {
-    await context.Response.WriteAsync("Hit the /albums endpoint to retrieve a list of albums!");
+    await context.Response.WriteAsync("welcome to the nicold sample API V1. Hit the /albums endpoint to retrieve a list of albums!");
 });
 
 app.MapGet("/albums", () =>
